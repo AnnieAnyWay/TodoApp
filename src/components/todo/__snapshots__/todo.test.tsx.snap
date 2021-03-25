@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly todo item 1`] = `
+<li
+  className="todo-item  "
+>
+  <input
+    checked={false}
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="todo-item__name"
+  >
+    Run NY marathon later
+  </span>
+  <span
+    className="todo-item__due-date"
+  >
+    3/27/2021
+  </span>
+</li>
+`;
+
+exports[`renders correctly when there are no items 1`] = `null`;
+
+exports[`renders correctly with items 1`] = `
+Array [
+  <ul
+    className="todo-list"
+  >
+    <li
+      className="todo-item  "
+    >
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="todo-item__name"
+      >
+        Run NY marathon later
+      </span>
+      <span
+        className="todo-item__due-date"
+      >
+        3/27/2021
+      </span>
+    </li>
+    <li
+      className="todo-item  "
+    >
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="todo-item__name"
+      >
+        Run LA marathon
+      </span>
+      <span
+        className="todo-item__due-date"
+      >
+        3/30/2021
+      </span>
+    </li>
+  </ul>,
+  <div
+    className="loader-container"
+  >
+    <div
+      className="loader"
+    >
+      <div />
+      <div />
+    </div>
+  </div>,
+]
+`;
